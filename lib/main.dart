@@ -159,7 +159,7 @@ class _StudentProfileScreenState extends State<StudentProfileScreen> {
     return ClipRRect(
       borderRadius: BorderRadius.circular(12),
       child: Image.asset(
-        'assets/images/111.png',
+        'assets/images/mauntian.png',
         height: 180,
         fit: BoxFit.cover,
         errorBuilder: (context, error, stackTrace) {
@@ -261,7 +261,7 @@ class StudentDetailsSection extends StatelessWidget {
           children: [
             const CircleAvatar(
               radius: 40,
-              backgroundImage: AssetImage('assets/images/111.png'),
+              backgroundImage: AssetImage('assets/images/lll.jpeg'),
             ),
             const SizedBox(height: 12),
             const Text(
